@@ -1,1 +1,1 @@
-#game-framework
+# 使用 PIXI 写得一套游戏中间层框架

@@ -1,0 +1,24 @@
+{
+  "name": "fishing",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@types/jquery": "^3.3.30",
+    "@types/node": "^12.0.10",
+    "@types/pixi-spine": "^1.4.2",
+    "@types/pixi.js": "^4.8.8",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "pixi-multistyle-text": "^0.6.0",
+    "pixi-particles": "^2.1.9",
+    "pixi-richtext": "^1.1.2",
+    "pixi-sound": "^3.0.3",
+    "pixi.js": "^4.8.8"
+  },
+  "scripts": {
+    "version": "tsc --version",
+    "tsc": "tsc -p ./tsconfig.json",
+    "tsc_release": "tsc -p ./tsconfig.release.json & uglifyjs release/fishing.min.js -o release/fishing.min.js"
+  }
+}
